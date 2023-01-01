@@ -1,0 +1,28 @@
+@require: class-exdesign/exdesign
+@require: class-exdesign/article-ja
+
+document (|
+        title = {\SATySFi;の練習};
+        author = {uekann};
+        date = {2022/02/31};
+        show-title = true;
+        show-toc = true;
+        style = ArticleJa.a4paper;
+        design = ArticleJa.article;
+        header-footer = ArticleJa.normalHF;
+        fonts = ArticleJa.fonts;
+|) '<
+  +section{概要} <
+    +p{
+      これはsectionを追加することで目次がどのように変化するかを観察するための章。
+      長くなり過ぎたらどうなるかなども気になるので、
+      特に書くことは追いつかないが頑張って
+      文章を引き延ばすことを試みた。
+    }
+  >
+  +section{結果用}<
+    +p{
+      これは二つ以上の章に対してどのように表示されるかのテスト用。
+    }
+  >
+>
